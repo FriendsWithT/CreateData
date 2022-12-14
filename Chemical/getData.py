@@ -10,7 +10,10 @@ collection_periodic = Connect_Collection().connect_collect_Periodic_Table()
 
 list_collection = collection_periodic.find()
 
-done_list = ["H2", "He2", "Li", "Be", "B", "C"]
+done_list = ["H2", "He2", "Li", "Be", "B", "C", "N2", "O2", "F2", "Ne", "Na", "Mg",
+ "Al", "Si", "P", "S", "Cl2", "Ar2", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", 
+ "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Kr", "Rb", "Sr", "Nb", "Mo", 
+ "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "Xe"]
 
 for item_collection in list_collection:
 

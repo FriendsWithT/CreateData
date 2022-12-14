@@ -74,7 +74,9 @@ def get_equation(link):
 
     #-------------------------------------------------------------   
     # get the condition of substance
-    condition_class = soup.find("p", class_ ="condition").get_text()
+    condition_class = soup.find("p", class_ ="condition")
+    if condition_class != None:
+        condition_class = condition_class.get_text()
     condition = ""
     
     if len(condition_class) != 0:
